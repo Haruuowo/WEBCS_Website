@@ -1,0 +1,355 @@
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <link rel="icon" href="social/icon.webp" type="icon">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>City Pop Classics</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.js">
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+        />
+    </head>
+    <body>
+
+        <div id="page-wrapper">
+    
+            <header id="header">
+                <div class="header-content">
+                    <div class="logo">
+                        
+                        <img id="header-img" src="https://res.cloudinary.com/teepublic/image/private/s--llNrYTK5--/c_crop,x_10,y_10/c_fit,w_1109/c_crop,g_north_west,h_1260,w_1260,x_-76,y_-94/co_rgb:560880,e_colorize,u_Misc:One%20Pixel%20Gray/c_scale,g_north_west,h_1260,w_1260/fl_layer_apply,g_north_west,x_-76,y_-94/bo_0px_solid_white/t_Resized%20Artwork/c_fit,g_north_west,h_1054,w_1054/co_ffffff,e_outline:53/co_ffffff,e_outline:inner_fill:53/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1592510340/production/designs/4539411_1.jpg" alt="City Pop Classics" />
+                        <span id="city-records"  href="#hero"  >CITY RECORDS</span>
+                    </div>
+                    
+                    <nav id="nav-bar">
+                        
+                        <ul>
+                            
+                            <li><a class="nav-link" href="#hero">Home</a></li>
+                            <li><a class="nav-link" href="#features">Music</a></li>
+                            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                        </ul>
+                    </nav>
+                    <div class="hamburger" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+
+                <script>
+                    document.getElementById("hamburger").addEventListener("click", function () {
+                    const nav = document.getElementById("nav-bar");
+                    nav.classList.toggle("active");
+                    });
+                </script>
+            </header>
+            
+        
+            <section id="hero">
+                <div class="hero-text">
+                    <h1>INTRODUCTION TO</h1>
+                    <h3>シティ・ポップ</h3>
+                    <h2>CITY POP</h2>
+                    <p>Immerse yourself in the iconic sound of the 80s with our exclusive vinyl releases.</p>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        placeholder="Enter your email for updates"
+                        required
+                        />
+                        <input id="submit" type="submit" value="Subscribe" class="btn" />
+                    </form>
+                </div>
+            </section>
+
+            <section id="how-it-works">
+                <iframe src="https://www.youtube.com/embed/2fe2qUWPU1M" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+            </section>
+
+            <section id="features">
+                <h2>Why You'll Love City Pop</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fa fa-3x fa-cd"></i>
+                        <h3>Classic Hits</h3>
+                        <p>Discover timeless tracks that defined a genre.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa fa-3x fa-guitar"></i>
+                        <h3>Exclusive Releases</h3>
+                        <p>Listen in to unheard and unknown albums of City</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa fa-3x fa-volume-up"></i>
+                        <h3>High Quality Sound</h3>
+                        <p>Enjoy pristine audio quality with every album.</p>
+                    </div>
+                </div>
+            </section>
+        
+            
+
+    
+        
+            <section id="reccomendation">
+                <h2>OUR RECOMMENDATIONS</h2>
+                <div class="pricing-grid">
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/LOVETRIP.jpg" alt="LOVE TRIP Album Cover by Takako Mamiya (間宮貴子)">
+                            <audio class="product-audio" src="MP3/Mayonakano_Joke.mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>LOVE TRIP - ラヴ・トリップ</h3>
+                        <p>Takako Mamiya - 間宮貴子</p>
+                        <ul>
+                            <li>10 classic tracks</li>
+                            <li>Exclusive cover design</li>
+                            <li>High-quality vinyl pressing</li>
+                            <li>City Pop, Jazz-Funk, Soul, Kayokyoku, Vocal</li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/5c3jWgs4SyWQPyqjKhgXrR?si=87jWT8dqRfyGyVTmv1zDTA" class="btn">LISTEN IN</a>
+                    </div>
+            
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/MIGNONNE.jpg" alt="Mignonne Album Cover by Taeko Ohnuki (大貫妙子)">
+                            <audio class="product-audio" src="MP3/Jajauma Musume.mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Mignonne - ミニョンヌ</h3>
+                        <p>Taeko Ohnuki - 大貫妙子</p>
+                        <ul>
+                            <li>10 essential tracks</li>
+                            <li>Standard cover art</li>
+                            <li>High-fidelity vinyl</li>
+                            <li>Jazz, Funk/Soul, City Pop, Funk, Jazz</li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/0Y4RPWAZZui6gUL1kwgND6?si=FPOtHqxQQpudAxerTTwhqA" class="btn">LISTEN IN</a>
+                    </div>
+            
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/REQUEST.jpg" alt="Request Album Cover by Mariya Takeuchi (竹内まりや)">
+                            <audio class="product-audio" src="MP3/Mariya Takeuchi  Yume no Tsuzuki 1987.mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Request - リクエスト</h3>
+                        <p>Mariya Takeuchi - 竹内まりや</p>
+                        <ul>
+                            <li>Album created by the iconic Mariya Takeuchi</li>
+                            <li>Deluxe edition with special vinyl color</li>
+                            <li>Exclusive bonus tracks</li>
+                            <li>City Pop, Boogie, Soul, Kayokyoku, Synthpop</li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/4IjRikscB01fLT0BtKT5g5?si=G61o9uSYSJOX5AmCuSfNYg" class="btn">LISTEN IN</a>
+                    </div>
+                </div>
+            </section>
+            <section id="pricing">
+                <div class="pricing-grid">
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/brasi;l.jpg" alt="Brasilian Skies Album Cover by Masayoshi Takanaka (高中正義)">
+                            <audio class="product-audio" src="MP3/Beleza Pula.mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Brasilian Skies - ブラジリアン・スカイズ</h3>
+                        <p>Masayoshi Takanaka - 高中正義</p>
+                        <ul>
+                            <li>8 classic tracks</li>
+                            <li>Exclusive cover design</li>
+                            <li>High-quality vinyl pressing</li>
+                            <li>City Pop, Jazz-Funk, Soul, Kayokyoku, Vocal</li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/0zXeZw0oFC2Db99RqlfHur?si=T8GpOnk_RUS5ISG23uIPMA" class="btn">LISTEN IN</a>
+                    </div>
+            
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/AKINA.jpg" alt="Prologue Album Cover by Miki Matsubara (松原みき)">
+                            <audio class="product-audio" src="MP3/Slow Motion (2012 Remastered).mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Prologue - プロローグ</h3>
+                        <p>Miki Matsubara - 松原みき</p>
+                        <ul>
+                            <li>10 essential tracks</li>
+                            <li>Exclusive cover art</li>
+                            <li>High-fidelity vinyl</li>
+                            <li>Jazz, Funk/Soul, City Pop, Funk</li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/7jBgRCjyX34raftxwbaxyW?si=HHbqd6klREqDJH9M5tKCaQ" class="btn">LISTEN IN</a>
+                    </div>
+            
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/spacy_front.jpg" alt="SPACY Album Cover by Tatsuro Yamashita (山下達郎)">
+                            <audio class="product-audio" src="MP3/Love Space.mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>SPACY - スペイシー</h3>
+                        <p>Tatsuro Yamashita - 山下達郎</p>
+                        <ul>
+                            <li>15 tracks from the legendary Tatsuro Yamashita</li>
+                            <li>Deluxe edition with special vinyl color</li>
+                            <li>Funk/Soul, Pop Funk, City Pop</li>
+                            <li>Jazz, Rock, Funk Pop, City Pop</li>
+                        </ul>
+                        <a href="https://www.youtube.com/watch?v=PUM3Bx1Notk" class="btn">LISTEN IN</a>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="favorite">
+                <h2>TOP FAVORITES</h2>
+                <div class="pricing-grid">
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/plasticlove.jpg" alt="Plastic Love Album Cover by Mariya Takeuchi (竹内まりや)">
+                            <audio class="product-audio" src="MP3/Mariya Takeuchi - Plastic Love (Variety, 1984 Vinyl LP).mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Plastic Love - プラスティック・ラヴ</h3>
+                        <p>Mariya Takeuchi - 竹内まりや</p>
+                        <ul>
+                            <li>15 tracks from the legendary Mariya Takeuchi</li>
+                            <li>Deluxe edition with special vinyl color</li>
+                            <li>Funk/Soul, Pop Funk, City Pop</li>
+                            <li>Jazz, Rock, Funk Pop, City Pop</li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/3lBX7AtzE4JoZaAIBLptRx?si=cU7lHpPhRv6GsnqNIJVDFQ" class="btn">LISTEN IN</a>
+                    </div>
+            
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/BIGWAVE.jpg" alt="Big Wave Album Cover by Tatsuro Yamashita (山下達郎)">
+                            <audio class="product-audio" src="MP3/Tatsuro Yamashita - Magic Ways.mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Big Wave - ビッグ・ウェーブ</h3>
+                        <p>Tatsuro Yamashita - 山下達郎</p>
+                        <ul>
+                            <li>12 classic tracks</li>
+                            <li>Exclusive cover design</li>
+                            <li>High-quality vinyl pressing</li>
+                            <li>City Pop, Jazz-Funk, Soul, Kayokyoku, Vocal</li>
+                        </ul>
+                        <a href="https://www.youtube.com/watch?v=esyPXwBxLms" class="btn">LISTEN IN</a>
+                    </div>
+            
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/miki.jpg" alt="Miki Matsubara Best Collection Album Cover (松原みき)">
+                            <audio class="product-audio" src="MP3/真夜中のドアStay With Me.mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Miki Matsubara Best Collection - 松原みき ベスト・コレクション</h3>
+                        <p>Miki Matsubara - 松原みき</p>
+                        <ul>
+                            <li>Top tracks from Miki Matsubara</li>
+                            <li>Exclusive collection of 10 timeless hits</li>
+                            <li>High-fidelity vinyl</li>
+                            <li>City Pop, Jazz, Funk/Soul</li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/1ANaxJNBcbOvvycNL4MCL5?si=JHd7ooYMQDelTovjKnPx0A" class="btn">LISTEN IN</a>
+                    </div>
+                </div>
+            </section>
+            <section id="pricing">
+               
+            <section id="pricing">
+                <div class="pricing-grid">
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/wnile in blue.jpg" alt="Nile in Blue Album Cover by Momoko Kikuchi (菊池桃子)">
+                            <audio class="product-audio" src="MP3/Nile in Blue.mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Nile in Blue</h3>
+                        <p>Momoko Kikuchi - 菊池桃子</p>
+                        <ul>
+                            <li>Vinyl, 7", 45 RPM, Single</li>
+                            <li>Exclusive cover design</li>
+                            <li>High-quality vinyl pressing</li>
+                            <li>Electronic, Funk / Soul, Pop, Synth-pop</li>
+                        </ul>
+                        <a href="https://open.spotify.com/track/69YRgMlqr1k0UAJGv5lrZF?si=bbdf57777ce344aa" class="btn">LISTEN IN</a>
+                    </div>
+            
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/dressdown.jpg" alt="Cologne Album Cover by Kaoru Akimoto (秋元薫)">
+                            <audio class="product-audio" src="MP3/Kaoru Akimoto - Dress Down.mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Cologne</h3>
+                        <p>Kaoru Akimoto - 秋元薫</p>
+                        <ul>
+                            <li>Album created by the infamous Kaoru Akimoto</li>
+                            <li>Deluxe edition with special vinyl color</li>
+                            <li>Exclusive bonus tracks</li>
+                            <li>City Pop, Boogie, Soul, Kayokyoku, Synthpop</li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/5uEl2mEcKfGMij4tpMT164?si=V9lc9IM1ShKqnvL1e3wWWw" class="btn">LISTEN IN</a>
+                    </div>
+            
+                    <div class="product">
+                        <div class="media-container">
+                            <img class="product-image" src="images/TOKYOtaste.jpg" alt="Heart to Heart Album Cover by Rajie (ラジ)">
+                            <audio class="product-audio" src="MP3/ラジ & 南佳孝 (RAJIE & YOSHITAKA MINAMI)  - The Tokyo Taste (1977).mp3" preload="none"></audio>
+                            <button class="play-btn" onclick="togglePlay(this)">Play</button>
+                        </div>
+                        <h3>Heart to Heart</h3>
+                        <p>Rajie (ラジ)</p>
+                        <ul>
+                            <li>10 essential tracks</li>
+                            <li>Standard cover art</li>
+                            <li>High-fidelity vinyl</li>
+                            <li>Jazz, Funk/Soul, City Pop, Funk, Jazz</li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/2cmdWStrRQbd4qLIhn4HJr?si=oE-49ltHSLOI1sWaE7zgFQ" class="btn">LISTEN IN</a>
+                    </div>
+                </div>
+            </section>
+            
+                <footer>
+                    <div id="about-section">
+                    <h2>About Us</h2>
+                    <p>We're here to recommend you the best and newest Citypop for you to listen to!</p>
+                    <p>Remember to keep on listening and that everything is just for you!</p>
+                    </div>
+                    <div id="social-section">
+                    <h3>Remember to follow MEEEEEEEEEEEEEEEEEEEE!</h3>
+                    <ul class="social-icons">
+                        <li><a href="https://www.instagram.com/__kairu__/"><img src="social/instagram (1).png" alt="Instagram"></a></li>
+                        <li><a href="https://www.facebook.com/johnharold.doton/"><img src="social/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="https://x.com/kairuu_uwu?t=gPGvX9XrraFTIVN5NxDGUQ&s=09"><img src="social/twitter.png" alt="Twitter"></a></li>
+                    </ul>
+                    </div>
+                </footer>
+        </div>
+
+        <script>
+            function togglePlay(button) {
+                var audio = button.previousElementSibling;
+                if (audio.paused) {
+                    audio.play();
+                    button.textContent = "Pause";
+                } else {
+                    audio.pause();
+                    button.textContent = "Play";
+                }
+            }
+            
+        </script>
+    </body>
